@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quick{
+    font-family: "Quicksand", sans-serif;
+}
+
+.a_bit{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a_bit::before{
+    position: absolute;
+    content: '';
+    background-color: #8A47F6;
+    width: 100px;
+    height: 15px;
+    top: -45px;
+    border-radius: 40px;
+}
+
+.bg-color{
+    background-color: rgba(138, 71, 246, 0.2);
+}
